@@ -9,7 +9,8 @@
   "bin": "./bin.js",
   "files": [
     "index.js",
-    "README",
+    "bin.js",
+    "README.md",
     "LICENSE",
     "lib/"
   ]
