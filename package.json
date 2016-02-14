@@ -4,13 +4,12 @@
   "repository": "https://github.com/newfakeuser/maplesyrup.git",
   "description": "glob-like path matching algorithm",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "newfakeuser",
   "license": "UNLICENSED",
   "files": [
     "index.js",
-    ".gitignore"
+    "README",
+    "LICENSE",
+    "lib/"
   ]
 }
