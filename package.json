@@ -1,6 +1,6 @@
 {
   "name": "maplesyrup",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "https://github.com/newfakeuser/maplesyrup.git",
   "description": "path matching algorithm",
   "main": "index.js",
