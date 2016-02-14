@@ -1,11 +1,12 @@
 {
   "name": "maplesyrup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/newfakeuser/maplesyrup.git",
-  "description": "glob-like path matching algorithm",
+  "description": "path matching algorithm",
   "main": "index.js",
   "author": "newfakeuser",
   "license": "UNLICENSED",
+  "bin": "./bin.js",
   "files": [
     "index.js",
     "README",
