@@ -17,9 +17,19 @@ w,*,y,*
 *,x,y,*
 w,x,*,*
 w,x,y,*
+*,w,*,*,t,y
+*,w,e,*,*,y
+*,w,e,r,*,*
+q,*,*,*,t,y
+q,*,e,*,*,y
+q,w,e,*,*,*
+q,*,e,r,*,*
+q,w,*,*,*,y
+q,w,*,r,*,*
+*,*,*,r,t,y
 3,3,3
-6
 w,*,*,z
+6
 /w/x/y/z/
 a/b/c
 foo/
@@ -27,3 +37,4 @@ foo/bar/
 foo/bar/baz/
 foo/bar/*/
 foo/bar/baz/a
+q/w/e/r/t/y

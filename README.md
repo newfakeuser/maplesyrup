@@ -1,6 +1,10 @@
 # maplesyrup
 
-## Insallation
+## Requirements
+
+NodeJS v4.3.0
+
+## Installation
 
 `npm install -g maplesyrup`
 
@@ -41,7 +45,7 @@ We have to check each path against each pattern which gives us O(N * M) or more 
 Using a tree allows us to minimize number of possible matches for each consecutive segment.
 
 1. Construct a pattern tree in O(M * log(M * P)).
-1. Travese the tree once for each path in O(N * K * log(M))
+1. Traverse the tree once for each path in O(N * K * log(M))
 
 ### Further optimizations
 
@@ -49,4 +53,8 @@ It might be possible to further optimize the algorithm by comparing the size of 
 
 ### Notes
 
-Referencing children using a hashmap inside the pattern tree play a big role in performance gains. It allows us to not enumerate through all the patterns and isntead only look at the ones with matching segments.
+- Referencing children using a hashmap inside the pattern tree plays a big role in performance gains. It allows us to not enumerate through all the patterns and instead only look at the ones with matching segments.
+
+- To learn about a specific term, open the corresponding file in lib. For example, a `path` is defined in *./lib/path.js*
+
+- Next step for this project would be to create automated unit tests.
