@@ -57,4 +57,4 @@ It might be possible to further optimize the algorithm by comparing the size of 
 
 - To learn about a specific term, open the corresponding file in lib. For example, a `path` is defined in *./lib/path.js*
 
-- Next step for this project would be to create automated unit tests.
+- Next step for this project is to create automated unit tests.
